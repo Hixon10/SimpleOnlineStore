@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data.Objects;
 using System.Linq;
 using System.Text;
 using Domen.Entities;
@@ -39,7 +41,7 @@ namespace Domen.DAL
             }
         }
 
-        public GenericRepository<OrderLine> OrderLineRepositoryRepository
+        public GenericRepository<OrderLine> OrderLineRepository
         {
             get
             {

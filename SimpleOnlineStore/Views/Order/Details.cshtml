@@ -1,0 +1,50 @@
+﻿@model Domen.Entities.OrderLine
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>OrderLine</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Product)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Product)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Count)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Count)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Price)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Price)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Total)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Total)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IdOrder)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IdOrder)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

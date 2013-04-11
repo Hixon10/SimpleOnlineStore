@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Domen.Entities.Order>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@foreach (var order in Model)
+{
+    <h2>@order.CreationDate</h2>
+}
