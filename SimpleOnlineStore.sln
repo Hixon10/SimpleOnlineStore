@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleOnlineStore", "SimpleOnlineStore\SimpleOnlineStore.csproj", "{164A71DE-3149-48AB-9E71-4CA922B42998}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domen", "Domen\Domen.csproj", "{924C1557-776A-4594-A37C-47BF9654D67B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{164A71DE-3149-48AB-9E71-4CA922B42998}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{164A71DE-3149-48AB-9E71-4CA922B42998}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{164A71DE-3149-48AB-9E71-4CA922B42998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{924C1557-776A-4594-A37C-47BF9654D67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924C1557-776A-4594-A37C-47BF9654D67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924C1557-776A-4594-A37C-47BF9654D67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924C1557-776A-4594-A37C-47BF9654D67B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
